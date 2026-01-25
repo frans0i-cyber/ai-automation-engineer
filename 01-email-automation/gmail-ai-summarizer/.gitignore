@@ -9,4 +9,5 @@ venv/
 .env
 
 # Output files
-output/
+output/*
+!output/sample_output.json
