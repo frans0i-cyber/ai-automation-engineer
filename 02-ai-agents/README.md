@@ -1,40 +1,51 @@
 # 🤖 AI Agents
 
-This section contains agent-based AI systems that demonstrate **decision-making, routing, orchestration, and tool usage** using Large Language Models.
+This module contains **agent-based AI systems** that demonstrate
+decision-making, planning, and tool usage using LLMs.
 
-Each subfolder is a self-contained agent project.
-
----
-
-## 📂 Projects
-
-### 01-task-router-agent
-A Gemini-powered router agent that analyzes a user task and selects the most appropriate downstream agent using structured JSON output.
-
-**Concepts covered:**
-- Agent routing
-- Structured LLM responses
-- Confidence-based decisions
-- Modular agent design
-
-### 02-Tool-Using Agent
-An AI agent that selects and executes tools based on user intent.
-
-**Supported tools**
-- Calendar (create/list events)
-- Email (send/summarize)
-- Notes (create)
-
-**Pattern**
-User task → LLM → Structured JSON → Tool execution
+These agents build on the automation foundation and focus on
+**reasoning + orchestration**, not just single prompts.
 
 ---
 
-## 🧠 Why Agents Matter
-Agent systems are a core building block of modern AI automation:
-- Task delegation
-- Tool selection
-- Multi-agent workflows
-- Autonomous decision-making
+## 📂 Agents in this module
 
-This folder documents my progression from **single-agent logic** to **multi-agent orchestration**.
+### 01️⃣ Task Router Agent
+Routes a user task to the most appropriate specialized agent using structured JSON output.
+
+**Skills shown:**
+- LLM-based decision routing
+- Strict JSON validation
+- Agent orchestration
+
+📁 `01-task-router-agent`
+
+---
+
+### 02️⃣ Tool-Using Agent
+Selects and executes the correct tool (calendar, email, notes) based on user intent.
+
+**Skills shown:**
+- Tool selection via LLM
+- Action + arguments extraction
+- Safe tool execution
+
+📁 `02-tool-using-agent`
+
+---
+
+### 03️⃣ Planner Agent
+Breaks down a high-level goal into a structured, multi-step execution plan with assigned agents.
+
+**Skills shown:**
+- Multi-step planning
+- Agent delegation
+- Structured planning output
+
+📁 `03-planner-agent`
+
+---
+
+## 🎯 Goal
+Demonstrate **real-world agent patterns** used in modern AI systems:
+routing → planning → execution → tools.
