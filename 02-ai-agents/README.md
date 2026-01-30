@@ -54,8 +54,23 @@ to specialized assistants (email, calendar, notes, etc.).
 
 ---
 
+### 05️⃣ Memory Agent
+**Purpose:**  
+Persists structured information from agent executions for future use.
+
+**Key Concepts:**
+- Long-term memory
+- Event-based storage
+- Timestamped records
+- Deterministic data handling
+
+📁 `05-memory-agent`
+
+---
+
 ## 🎯 Goal
 Demonstrate **real-world agent patterns** used in modern AI systems:
 
 routing → planning → execution → tools.
+
 
