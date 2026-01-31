@@ -2,8 +2,7 @@ import json
 import os
 from datetime import datetime
 
-MEMORY_FILE = "memory.json"
-
+MEMORY_FILE = os.path.join(os.path.dirname(__file__), "memory.json")
 
 class MemoryStore:
     def __init__(self):
@@ -20,9 +19,11 @@ class MemoryStore:
         })
         self._save(memory)
 
-    def search(self, event_type: str):
+    def search(self, event_type: str = None):
         memory = self._load()
-        return [m for m in memory if m["type"] == event_type]
+        if event_type:
+            return [m for m in memory if m["type"] == event_type]
+        return memory
 
     def _load(self):
         with open(MEMORY_FILE, "r") as f:

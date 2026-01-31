@@ -1,0 +1,10 @@
+[
+  {
+    "timestamp": "2026-01-31T04:33:30.343715",
+    "type": "email_summary",
+    "content": {
+      "count": 5,
+      "urgent": 2
+    }
+  }
+]

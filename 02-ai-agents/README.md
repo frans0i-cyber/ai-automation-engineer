@@ -68,9 +68,21 @@ Persists structured information from agent executions for future use.
 
 ---
 
+### 06️⃣ Memory Recall Agent
+**Purpose:**  
+Retrieves previously stored structured memories from shared persistent storage and exposes them to other agents for context-aware execution.
+
+**Key Concepts:**
+- Memory retrieval
+- Event-type filtering
+- Shared state across agents
+- Stateless agent, stateful storage
+
+📁 `05-memory-agent`
+
+---
+
 ## 🎯 Goal
 Demonstrate **real-world agent patterns** used in modern AI systems:
 
 routing → planning → execution → tools.
-
-
