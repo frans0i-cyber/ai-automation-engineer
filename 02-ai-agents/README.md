@@ -46,7 +46,7 @@ Breaks down a high-level goal into a structured, multi-step execution plan with 
 
 ---
 
-### 04 – Executor Agent
+### 04️⃣ Executor Agent
 Executes structured plans produced by the Planner Agent by dispatching tasks
 to specialized assistants (email, calendar, notes, etc.).
 
@@ -84,5 +84,6 @@ Retrieves previously stored structured memories from shared persistent storage a
 
 ## 🎯 Goal
 Demonstrate **real-world agent patterns** used in modern AI systems:
+
 
 routing → planning → execution → tools.
