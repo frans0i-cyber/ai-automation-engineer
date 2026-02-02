@@ -78,7 +78,7 @@ Retrieves previously stored structured memories from shared persistent storage a
 - Shared state across agents
 - Stateless agent, stateful storage
 
-📁 `05-memory-agent`
+📁 `06-memory-recall-agent`
 
 ---
 
@@ -87,3 +87,4 @@ Demonstrate **real-world agent patterns** used in modern AI systems:
 
 
 routing → planning → execution → tools.
+
