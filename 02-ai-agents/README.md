@@ -82,9 +82,18 @@ Retrieves previously stored structured memories from shared persistent storage a
 
 ---
 
+### 7️⃣ Orchestrator Agent
+Coordinates all agents into a single end-to-end workflow.
+Handles routing, planning, execution, and memory lifecycle management.
+
+📁 `07-orchestrator-agent`
+
+---
+
 ## 🎯 Goal
 Demonstrate **real-world agent patterns** used in modern AI systems:
 
 
 routing → planning → execution → tools.
+
 
