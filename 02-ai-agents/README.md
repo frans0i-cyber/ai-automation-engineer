@@ -90,6 +90,17 @@ Handles routing, planning, execution, and memory lifecycle management.
 
 ---
 
+# 08️⃣ Agent Registry
+
+Central registry for managing agents and their capabilities.
+
+## Purpose
+- Register agents dynamically
+- Discover agents by capability
+- Remove hard-coded agent imports
+
+---
+
 ## 🎯 Goal
 Demonstrate **real-world agent patterns** used in modern AI systems:
 
