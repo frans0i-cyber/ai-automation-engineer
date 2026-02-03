@@ -103,11 +103,39 @@ Central registry for managing agents and their capabilities.
 
 ---
 
+## 09️⃣ CLI Runner / Demo Interface
+
+Provides a clean command-line entry point to run the entire AI agent system end-to-end.
+
+This agent acts as the **user-facing interface** for the architecture, making the system easy to demo, test, and understand.
+
+**Purpose:**
+- Single command to execute the full agent pipeline
+- Clean UX for demos and recruiters
+- Decouples system internals from user interaction
+
+**Key Capabilities:**
+- Accepts natural language tasks from CLI
+- Boots the orchestrator automatically
+- Streams agent execution steps to terminal
+- Displays final results and recalled memory
+
+📁 `_09_cli_runner`
+
+Example usage:
+```bash
+python run.py "Prepare my workday"
+
+CLI → Orchestrator → Router → Planner → Executor → Memory → Recall
+
+---
+
 ## 🎯 Goal
 Demonstrate **real-world agent patterns** used in modern AI systems:
 
 
 routing → planning → execution → memory → recall → orchestration.
+
 
 
 
