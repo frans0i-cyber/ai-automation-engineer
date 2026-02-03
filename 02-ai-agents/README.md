@@ -99,6 +99,8 @@ Central registry for managing agents and their capabilities.
 - Discover agents by capability
 - Remove hard-coded agent imports
 
+📁 `08-agent-registry`
+
 ---
 
 ## 🎯 Goal
@@ -106,6 +108,7 @@ Demonstrate **real-world agent patterns** used in modern AI systems:
 
 
 routing → planning → execution → memory → recall → orchestration.
+
 
 
 
