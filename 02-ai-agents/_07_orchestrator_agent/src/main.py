@@ -12,8 +12,7 @@ from _04_executor_agent.src.agent import execute_plan
 from _06_memory_recall_agent.src.agent import recall_memory
 
 
-def main():
-    goal = "Prepare my workday: summarize emails, schedule meetings, and create notes"
+def main(goal: str):
 
     print("🧠 Orchestrator started")
     decision = route_task(goal)
