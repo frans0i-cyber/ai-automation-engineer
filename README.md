@@ -18,3 +18,7 @@ production-style AI automation systems.
 
 ## Goal
 Build practical systems that solve real problems — not demos.
+
+## Automation Layer
+This project integrates AI agents with workflow automation tools
+such as n8n to enable real-world triggers and scheduled execution.
